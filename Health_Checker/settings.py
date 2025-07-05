@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-hbqj(rkxfih@6i*+e0)_i4j2z&e=ses$@7y$u9i)+p2srz#rtx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://well-scan-4.onrender.com']
 
 
 # Application definition
