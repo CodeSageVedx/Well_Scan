@@ -18,7 +18,7 @@ lockfile==0.12.2
 mock==5.2.0
 numpy==2.3.1
 pandas==2.2.3
-scikit-learn==1.5.2
+scikit-learn==1.6.1
 Pillow==11.3.0
 protobuf==6.31.1
 pyOpenSSL==25.1.0
@@ -30,3 +30,5 @@ tornado==6.2
 trove_classifiers==2024.7.2
 truststore==0.10.1
 urllib3_secure_extra==0.1.0
+gunicorn==22.0.0
+whitenoise==6.8.0
