@@ -25,7 +25,6 @@ roboflow==1.1.54
 Sphinx==8.2.3
 thread==2.0.5
 tornado==6.2
-trove_classifiers==2025.5.9.12
+trove_classifiers==2024.7.2
 truststore==0.10.1
 urllib3_secure_extra==0.1.0
-xmlrpclib==1.0.1
