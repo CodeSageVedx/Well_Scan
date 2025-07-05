@@ -12,13 +12,11 @@ HTMLParser==0.0.2
 ipython==8.12.3
 ipywidgets==8.1.1
 Jinja2==3.1.2
-jnius==1.1.0
 joblib==1.3.2
 keyring==25.6.0
 lockfile==0.12.2
 mock==5.2.0
 numpy==2.3.1
-Pillow==10.0.0
 Pillow==11.3.0
 protobuf==6.31.1
 pyOpenSSL==25.0.0
