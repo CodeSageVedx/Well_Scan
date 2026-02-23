@@ -5,25 +5,25 @@
 ```mermaid
 flowchart TD
     subgraph Frontend
-        TEMPLATES[HTML Templates] 
-        CSS[CSS/Bootstrap] 
-        JS[JavaScript]
+        TEMPLATES("HTML Templates")
+        CSS("CSS/Bootstrap")
+        JS("JavaScript")
     end
     subgraph Backend
-        DJANGO[Django Framework]
-        ORGANS[organs App]
-        VIEWS[Django Views]
+        DJANGO("Django Framework")
+        ORGANS("organs App")
+        VIEWS("Django Views")
     end
     subgraph ML[Machine Learning]
-        NOTEBOOKS[Jupyter Notebooks]
-        MODELS[Trained Models (joblib)]
+        NOTEBOOKS("Jupyter Notebooks")
+        MODELS("Trained Models (joblib)")
     end
     subgraph Data[Database]
-        SQLITE[SQLite DB]
+        SQLITE("SQLite DB")
     end
     subgraph Static[Static & Media]
-        STATIC[static/]
-        UPLOADS[uploads/]
+        STATIC("static/")
+        UPLOADS("uploads/")
     end
     TEMPLATES -->|Rendered| DJANGO
     CSS --> TEMPLATES
